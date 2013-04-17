@@ -1,0 +1,42 @@
+{
+  "name": "skin-starter",
+  "version": "0.0.0",
+  "description": "TopCoat skin starter project",
+  "main": "button.css",
+  "directories": {
+    "test": "test"
+  },
+  "topcoat": {
+    "controls": {},
+    "utils": {
+      "topcoat/utils": ""
+    }
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/topcoat/skin-starter.git"
+  },
+  "keywords": [
+    "button",
+    "css",
+    "topcoat",
+    "base",
+    "adobe"
+  ],
+  "author": "@dam Kristofer Joseph",
+  "license": "Apache",
+  "devDependencies": {
+    "grunt-contrib-stylus": "~0.5.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.3.1",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-jade": "~0.5.0",
+    "grunt-zip": "~0.7.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-topcoat": "0.0.5",
+    "grunt-contrib-cssmin": "~0.6.0"
+  }
+}
