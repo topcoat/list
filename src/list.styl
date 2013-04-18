@@ -10,6 +10,12 @@
         <li class="topcoat-list__item">
           Item
         </li>
+        <li class="topcoat-list__item">
+          Item
+        </li>
+        <li class="topcoat-list__item">
+          Item
+        </li>
       </ul>
     </div>
 
@@ -18,6 +24,7 @@
 .topcoat-list__container
   list-container()
   border-top var-border-top--list-container
+  border-bottom var-border-bottom--list
   background-color var-background-color--list
 
 .topcoat-list__header
@@ -34,7 +41,6 @@
 .topcoat-list
   list()
   border-top var-border-top--list
-  border-bottom var-border-bottom--list
   color var-color
 
 .topcoat-list__item
@@ -43,6 +49,7 @@
   border-top var-border-top--list-item
   border-bottom var-border-bottom--list-item
 
-.topcoat-list__item--last
+.topcoat-list__item--first
   @extend .topcoat-list__item
-  border-bottom 0
+  border-top var-border-top--list-item--first
+

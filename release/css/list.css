@@ -23,6 +23,12 @@ limitations under the License.
         <li class="topcoat-list__item">
           Item
         </li>
+        <li class="topcoat-list__item">
+          Item
+        </li>
+        <li class="topcoat-list__item">
+          Item
+        </li>
       </ul>
     </div>
 
@@ -37,6 +43,7 @@ limitations under the License.
   cursor: default;
   user-select: none;
   border-top: 1px solid #bcbfbf;
+  border-bottom: 1px solid #eff1f1;
   background-color: #dfe2e2;
 }
 .topcoat-list__header {
@@ -55,17 +62,16 @@ limitations under the License.
   margin: 0;
   list-style-type: none;
   border-top: 1px solid #bcbfbf;
-  border-bottom: 1px solid #eff1f1;
   color: #454545;
 }
 .topcoat-list__item,
-.topcoat-list__item--last {
+.topcoat-list__item--first {
   margin: 0;
   padding: 0;
   padding: 1.25rem;
   border-top: 1px solid #eff1f1;
   border-bottom: 1px solid #bcbfbf;
 }
-.topcoat-list__item--last {
-  border-bottom: 0;
+.topcoat-list__item--first {
+  border-top: 1px solid rgba(0,0,0,0.05);
 }
