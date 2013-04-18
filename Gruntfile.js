@@ -21,22 +21,26 @@ module.exports = function(grunt) {
             utils: {
                 src: 'tmp/src/utils/*.zip',
                 dest: 'tmp/src/utils'
+            },
+            controls: {
+                src: 'tmp/src/controls/*.zip',
+                dest: 'tmp/src/controls'
             }
         },
 
         clean: {
             tmp: ['tmp'],
-            zip: ['tmp/src/utils/*.zip']
+            zip: ['tmp/**/*.zip']
         },
 
         compile: {
             stylus: {
                 options: {
-                    import: ['{{example}}-mixin', 'utils', 'variables'],
+                    import: ['list-mixin', 'utils', 'variables'],
                     compress: false
                 },
                 files: {
-                    'release/css/{{example}}.css': ['src/copyright.styl', 'src/{{example}}.styl']
+                    'release/css/list.css': ['src/copyright.styl', 'src/list.styl']
                 }
             }
         },

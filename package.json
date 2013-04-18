@@ -1,13 +1,15 @@
 {
-  "name": "skin-starter",
+  "name": "list",
   "version": "0.0.0",
-  "description": "TopCoat skin starter project",
-  "main": "button.css",
+  "description": "TopCoat list component",
+  "main": "list.css",
   "directories": {
     "test": "test"
   },
   "topcoat": {
-    "controls": {},
+    "controls": {
+        "topcoat/list-base": ""
+    },
     "utils": {
       "topcoat/utils": ""
     }
@@ -17,13 +19,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/topcoat/skin-starter.git"
+    "url": "git://github.com/topcoat/list.git"
   },
   "keywords": [
-    "button",
+    "list",
     "css",
     "topcoat",
-    "base",
     "adobe"
   ],
   "author": "@dam Kristofer Joseph",
@@ -37,6 +38,7 @@
     "grunt-zip": "~0.7.0",
     "grunt-contrib-clean": "~0.4.0",
     "grunt-topcoat": "0.0.5",
-    "grunt-contrib-cssmin": "~0.6.0"
+    "grunt-contrib-cssmin": "~0.6.0",
+    "debug": "~0.7.2"
   }
 }
