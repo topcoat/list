@@ -14,13 +14,13 @@ limitations under the License.
 */
 
 /*
- TopCoat List
+ List
  ------------
 
     <div class="topcoat-list__container">
-      <h3 class="topcoat-list__header"></h3>
+      <h3 class="topcoat-list__header">Category</h3>
       <ul class="topcoat-list">
-        <li class="topcoat-list__item">
+        <li class="topcoat-list__item--first">
           Item
         </li>
         <li class="topcoat-list__item">
@@ -42,6 +42,8 @@ limitations under the License.
   border: none;
   cursor: default;
   user-select: none;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
   border-top: 1px solid #bcbfbf;
   border-bottom: 1px solid #eff1f1;
   background-color: #dfe2e2;
