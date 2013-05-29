@@ -1,6 +1,6 @@
-Skin Starter
+Topcoat default list skin
 ============
 
-### Skin Starter Project
+### Topcoat list
 
-This is the starter project for creating skin files for a theme.
+This is the Topcoat default list skin
