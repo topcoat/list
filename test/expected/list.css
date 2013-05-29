@@ -20,7 +20,7 @@ limitations under the License.
     <div class="topcoat-list__container">
       <h3 class="topcoat-list__header">Category</h3>
       <ul class="topcoat-list">
-        <li class="topcoat-list__item--first">
+        <li class="topcoat-list__item">
           Item
         </li>
         <li class="topcoat-list__item">
@@ -66,14 +66,13 @@ limitations under the License.
   border-top: 1px solid #bcbfbf;
   color: #454545;
 }
-.topcoat-list__item,
-.topcoat-list__item--first {
+.topcoat-list__item {
   margin: 0;
   padding: 0;
   padding: 1.25rem;
   border-top: 1px solid #eff1f1;
   border-bottom: 1px solid #bcbfbf;
 }
-.topcoat-list__item--first {
+.topcoat-list__item:first-child {
   border-top: 1px solid rgba(0,0,0,0.05);
 }
