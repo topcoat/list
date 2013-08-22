@@ -31,7 +31,10 @@
     "grunt-contrib-jade": "~0.7.0",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-cssmin": "~0.6.1",
-    "grunt-simple-mocha": "~0.4.0"
+    "grunt-simple-mocha": "~0.4.0",
+    "grunt-topdoc": "~0.1.0",
+    "topdoc-theme": "~0.2.2",
+    "grunt-contrib-copy": "~0.4.1"
   },
   "dependencies": {
     "topcoat-list-base": "~0.3.0",
