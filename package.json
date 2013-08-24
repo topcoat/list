@@ -39,6 +39,6 @@
   "dependencies": {
     "topcoat-list-base": "~0.3.0",
     "topcoat-utils": "~0.1.0",
-    "topcoat-theme": "~0.5.5"
+    "topcoat-theme": "~0.5.6"
   }
 }
