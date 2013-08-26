@@ -106,17 +106,6 @@ module.exports = function(grunt) {
             }
         },
 
-        copy: {
-            release: {
-                files: [{
-                    expand: true,
-                    flatten: true,
-                    src: 'node_modules/topcoat-theme/img/light-sprites2x.png',
-                    dest: 'img'
-                }]
-            }
-        },
-
         jade: {
             compile: {
                 expand: true,
@@ -147,11 +136,10 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-simple-mocha');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
-    grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-topdoc');
 
     grunt.registerTask('default', ['clean', 'build', 'test','release']);
     grunt.registerTask('build', ['stylus', 'jade']);
     grunt.registerTask('test', ['simplemocha']);
-    grunt.registerTask('release', ['cssmin', 'copy', 'topdoc']);
+    grunt.registerTask('release', ['cssmin', 'topdoc']);
 };
