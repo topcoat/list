@@ -128,7 +128,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-topdoc');
 
     grunt.registerTask('default', ['clean', 'build', 'test','release']);
-    grunt.registerTask('build', ['stylus', 'jade']);
+    grunt.registerTask('build', ['stylus']);
     grunt.registerTask('test', ['simplemocha']);
     grunt.registerTask('release', ['cssmin', 'topdoc']);
 };
