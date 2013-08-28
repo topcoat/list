@@ -106,16 +106,6 @@ module.exports = function(grunt) {
             }
         },
 
-        jade: {
-            compile: {
-                expand: true,
-                cwd: 'test/perf',
-                src: ['*.jade'],
-                dest: 'test/perf/',
-                ext: '.test.html'
-            }
-        },
-
         simplemocha: {
             all: {
                 src: ['test/*.test.js']
@@ -132,7 +122,6 @@ module.exports = function(grunt) {
     // These plugins provide necessary tasks.
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-stylus');
-    grunt.loadNpmTasks('grunt-contrib-jade');
     grunt.loadNpmTasks('grunt-simple-mocha');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
