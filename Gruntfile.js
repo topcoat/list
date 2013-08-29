@@ -54,32 +54,8 @@ module.exports = function(grunt) {
                     src: 'src/topcoat-list.styl',
                     dest: 'css/topcoat-list-mobile-dark.css'
                 }]
-            },
-
-            desktoplight: {
-                options: {
-                    paths: ['node_modules/topcoat-list-base/src', 'node_modules/topcoat-list-base/src/mixins', 'node_modules/topcoat-utils/src/mixins', 'node_modules/topcoat-theme/src'],
-                    import: ['theme-topcoat-desktop-light', 'nib'],
-                    compress: false
-                },
-                files: [{
-                    src: 'src/topcoat-list.styl',
-                    dest: 'css/topcoat-list-desktop-light.css'
-                }]
-            },
-
-            desktopdark: {
-                options: {
-                    paths: ['node_modules/topcoat-list-base/src', 'node_modules/topcoat-list-base/src/mixins', 'node_modules/topcoat-utils/src/mixins', 'node_modules/topcoat-theme/src'],
-                    import: ['theme-topcoat-desktop-dark', 'nib'],
-                    compress: false
-                },
-
-                files: [{
-                    src: 'src/topcoat-list.styl',
-                    dest: 'css/topcoat-list-desktop-dark.css'
-                }]
             }
+
         },
 
         topdoc: {
@@ -96,6 +72,7 @@ module.exports = function(grunt) {
                 }
             }
         },
+
         cssmin: {
             minify: {
                 expand: true,
