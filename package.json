@@ -35,7 +35,7 @@
     "topdoc-theme": "~0.2.7"
   },
   "dependencies": {
-    "topcoat-list-base": "~0.3.0",
+    "topcoat-list-base": "~0.4.1",
     "topcoat-utils": "~0.1.0",
     "topcoat-theme": "~0.5.6"
   }
