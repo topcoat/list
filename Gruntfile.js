@@ -32,7 +32,7 @@ module.exports = function(grunt) {
         stylus: {
             mobilelight: {
                 options: {
-                    paths: ['node_modules/topcoat-list-base/src', 'node_modules/topcoat-list-base/src/mixins', 'node_modules/topcoat-utils/src/mixins', 'node_modules/topcoat-theme/src'],
+                    paths: ['node_modules/topcoat-list-base/src', 'node_modules/topcoat-utils/src/mixins', 'node_modules/topcoat-theme/src'],
                     import: ['theme-topcoat-mobile-light', 'nib'],
                     compress: false
                 },
@@ -45,7 +45,7 @@ module.exports = function(grunt) {
 
             mobiledark: {
                 options: {
-                    paths: ['node_modules/topcoat-list-base/src', 'node_modules/topcoat-list-base/src/mixins', 'node_modules/topcoat-utils/src/mixins', 'node_modules/topcoat-theme/src'],
+                    paths: ['node_modules/topcoat-list-base/src', 'node_modules/topcoat-utils/src/mixins', 'node_modules/topcoat-theme/src'],
                     import: ['theme-topcoat-mobile-dark', 'nib'],
                     compress: false
                 },
