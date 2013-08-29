@@ -1,6 +1,8 @@
-Topcoat default list skin
+Topcoat List
 ============
 
-### Topcoat list
+Default skin for Topcoat list components
 
-This is the Topcoat default list skin
+[![Build Status](https://travis-ci.org/topcoat/list.png?branch=master)](https://travis-ci.org/topcoat/list)
+
+[![NPM](https://nodei.co/npm/topcoat-list.png)](https://nodei.co/npm/topcoat-list/)
