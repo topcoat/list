@@ -22,9 +22,7 @@
           </nav>
           <div class="combo">
             <select class="docNav">
-              <option value="index.html">Topcoat List Desktop Dark</option>
-              <option value="topcoat-list-desktop-light.html">Topcoat List Desktop Light</option>
-              <option value="topcoat-list-mobile-dark.html">Topcoat List Mobile Dark</option>
+              <option value="index.html">Topcoat List Mobile Dark</option>
               <option value="topcoat-list-mobile-light.html" selected="selected">Topcoat List Mobile Light</option>
             </select>
           </div>
@@ -53,36 +51,22 @@
             <header>
               <h2>List</h2>
             </header>
-            <section class="component"><div class="topcoat-list__container">  <h3 class="topcoat-list__header">Category</h3>  <ul class="topcoat-list">    <li class="topcoat-list__item">      Item    </li>    <li class="topcoat-list__item">      Item    </li>    <li class="topcoat-list__item">      Item    </li>  </ul></div></section>
+            <section class="component"><div class="topcoat-list">  <h3 class="topcoat-list__header">Category</h3>  <ul class="topcoat-list__container">    <li class="topcoat-list__item">      Item    </li>    <li class="topcoat-list__item">      Item    </li>    <li class="topcoat-list__item">      Item    </li>  </ul></div></section>
             <footer>
               <div class="showcode"><a href="#">Show code snippets</a></div>
               <section class="code">
                 <div>
                   <h3>HTML</h3>
-                  <pre class="html"><code data-language="html">&lt;div class=&quot;topcoat-list__container&quot;&gt;  &lt;h3 class=&quot;topcoat-list__header&quot;&gt;Category&lt;/h3&gt;  &lt;ul class=&quot;topcoat-list&quot;&gt;    &lt;li class=&quot;topcoat-list__item&quot;&gt;      Item    &lt;/li&gt;    &lt;li class=&quot;topcoat-list__item&quot;&gt;      Item    &lt;/li&gt;    &lt;li class=&quot;topcoat-list__item&quot;&gt;      Item    &lt;/li&gt;  &lt;/ul&gt;&lt;/div&gt;</code></pre>
+                  <pre class="html"><code data-language="html">&lt;div class=&quot;topcoat-list&quot;&gt;  &lt;h3 class=&quot;topcoat-list__header&quot;&gt;Category&lt;/h3&gt;  &lt;ul class=&quot;topcoat-list__container&quot;&gt;    &lt;li class=&quot;topcoat-list__item&quot;&gt;      Item    &lt;/li&gt;    &lt;li class=&quot;topcoat-list__item&quot;&gt;      Item    &lt;/li&gt;    &lt;li class=&quot;topcoat-list__item&quot;&gt;      Item    &lt;/li&gt;  &lt;/ul&gt;&lt;/div&gt;</code></pre>
                 </div>
                 <div>
                   <h3>CSS</h3>
-                  <pre class="css"><code data-language="css">.topcoat-list__container {
-  padding: 0;
-  margin: 0;
-  font: inherit;
-  color: inherit;
-  background: transparent;
-  border: none;
-  cursor: default;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
+                  <pre class="css"><code data-language="css">.topcoat-list {
   border-top: 1px solid #bcbfbf;
   border-bottom: 1px solid #eff1f1;
   background-color: #dfe2e2;
 }
 .topcoat-list__header {
-  margin: 0;
   padding: 4px 20px;
   font-size: 0.9em;
   font-weight: 400;
@@ -92,16 +76,11 @@
   border-top: 1px solid rgba(255,255,255,0.5);
   border-bottom: 1px solid rgba(255,255,255,0.23);
 }
-.topcoat-list {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
+.topcoat-list__container {
   border-top: 1px solid #bcbfbf;
   color: #454545;
 }
 .topcoat-list__item {
-  margin: 0;
-  padding: 0;
   padding: 1.25rem;
   border-top: 1px solid #eff1f1;
   border-bottom: 1px solid #bcbfbf;

@@ -16,14 +16,14 @@
 *
 */
 
-@import list-mixin
+@import list
 /* topdoc
   name: List
   description: Topcoat default list skin
   markup:
-    <div class="topcoat-list__container">
+    <div class="topcoat-list">
       <h3 class="topcoat-list__header">Category</h3>
-      <ul class="topcoat-list">
+      <ul class="topcoat-list__container">
         <li class="topcoat-list__item">
           Item
         </li>
@@ -36,18 +36,17 @@
       </ul>
     </div>
   tags:
-    - desktop
     - mobile
     - list
 */
-.topcoat-list__container
-  list-container()
+.topcoat-list
+  @extend .list
   border-top var-border-top--list-container
   border-bottom var-border-bottom--list
   background-color var-background-color--list
 
 .topcoat-list__header
-  list-header()
+  @extend .list__header
   padding var-padding--list-header
   font-size var-font-size--list-header
   font-weight var-font-weight--list-header
@@ -57,13 +56,13 @@
   border-top var-border-top--list-header
   border-bottom var-border-bottom--list-header
 
-.topcoat-list
-  list()
+.topcoat-list__container
+  @extend .list__container
   border-top var-border-top--list
   color var-color
 
 .topcoat-list__item
-  list-item()
+  @extend .list__item
   padding var-padding--list-item
   border-top var-border-top--list-item
   border-bottom var-border-bottom--list-item

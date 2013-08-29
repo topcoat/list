@@ -1,7 +1,7 @@
 {
   "name": "topcoat-list",
   "version": "0.4.2",
-  "description": "TopCoat list component",
+  "description": "Topcoat list component",
   "main": "index.html",
   "directories": {
     "test": "test",
@@ -23,7 +23,7 @@
     "adobe"
   ],
   "author": "@dam Kristofer Joseph",
-  "license": "Apache",
+  "license": "Apache2",
   "devDependencies": {
     "grunt-contrib-stylus": "~0.6.0",
     "grunt": "~0.4.1",
@@ -35,7 +35,7 @@
     "topdoc-theme": "~0.2.7"
   },
   "dependencies": {
-    "topcoat-list-base": "~0.3.0",
+    "topcoat-list-base": "~0.4.1",
     "topcoat-utils": "~0.1.0",
     "topcoat-theme": "~0.5.6"
   }
