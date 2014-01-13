@@ -43,6 +43,6 @@
     "topcoat-theme-desktop-dark": "~0.1.7"
   },
   "dependencies": {
-    "topcoat-list-base": "git://github.com/topcoat/list-base.git#resin"
+    "topcoat-list-base": "0.5.0"
   }
 }
