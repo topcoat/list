@@ -14,9 +14,39 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 *
-*/
+*/@font-face {
+  font-family: "Source Sans Pro";
+  src: url('../font/SourceSansPro-Regular.otf');
+}
 
-.list,
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url('../font/SourceSansPro-Light.otf');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url('../font/SourceSansPro-Semibold.otf');
+  font-weight: 600;
+}
+
+body {
+  font: 16px "Source Sans Pro", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: hsla(200, 2%, 30%, 1);
+}
+
+:focus {
+  outline-color: transparent;
+  outline-style: none;
+}
+
 .topcoat-list {
   padding: 0;
   margin: 0;
@@ -24,28 +54,31 @@
   color: inherit;
   background: transparent;
   border: none;
-  cursor: default;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
 }
 
-.list__header,
-.topcoat-list__header {
-  margin: 0;
-}
-
-.list__container,
 .topcoat-list__container {
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
 
-.list__item,
+.topcoat-list {
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.topcoat-list {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.topcoat-list__header {
+  margin: 0;
+}
+
 .topcoat-list__item {
   margin: 0;
   padding: 0;
@@ -75,33 +108,33 @@
 */
 
 .topcoat-list {
-  border-top: 1px solid #9daca9;
-  border-bottom: 1px solid #fff;
-  background-color: #e5e9e8;
+  border-top: 1px solid hsla(180, 1%, 20%, 1);
+  border-bottom: 1px solid hsla(180, 1%, 38%, 1);
+  background-color: hsla(180, 1%, 27%, 1);
 }
 
 .topcoat-list__header {
   padding: 4px 20px;
-  font-size: 0.9em;
+  font-size: .9em;
   font-weight: 400;
-  background-color: #d2d6d6;
-  color: #454545;
-  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
-  border-top: 1px solid rgba(255,255,255,0.5);
-  border-bottom: 1px solid rgba(255,255,255,0.23);
+  background-color: hsla(210, 2%, 25%, 1);
+  color: hsla(180, 2%, 78%, 1);
+  text-shadow: 0 1px 0 hsla(0, 100%, 100%, 0.1);
+  border-top: 1px solid hsla(0, 100%, 100%, 0.1);
+  border-bottom: 1px solid hsla(0, 100%, 100%, 0.05);
 }
 
 .topcoat-list__container {
-  border-top: 1px solid #9daca9;
-  color: #454545;
+  border-top: 1px solid hsla(180, 1%, 20%, 1);
+  color: hsla(180, 2%, 78%, 1);
 }
 
 .topcoat-list__item {
   padding: 1.25rem;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #9daca9;
+  border-top: 1px solid hsla(180, 1%, 38%, 1);
+  border-bottom: 1px solid hsla(180, 1%, 20%, 1);
 }
 
 .topcoat-list__item:first-child {
-  border-top: 1px solid #d6dcdb;
+  border-top: 1px solid hsla(0, 0%, 0%, 0.05);
 }
