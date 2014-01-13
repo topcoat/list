@@ -1,6 +1,6 @@
 {
   "name": "topcoat-list",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Topcoat list component",
   "main": "index.html",
   "style": "src/list.css",
